@@ -155,7 +155,7 @@ body {
     box-shadow: 6px 0px 30px 6px #00F6FF;
     position: absolute;
     z-index: 2;
-    top: 225%;
+    top: 240%;
     transform: translateY(-50%) scaleX(1); /* centraliza vertical sem alterar horizontal */
 }
 
@@ -175,6 +175,8 @@ body {
 .linhaneon1 {
     margin-top: 4rem;
     margin-bottom: 4rem;
+    width: 100%;
+    height: 100%;
 }
 
 .websiteimg {
