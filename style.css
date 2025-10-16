@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+:root {
+    --background-color: #000000;
+    --text-color: #FFFFFF;
+    --fonte-principal: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: var(--fonte-principal);
+    font-size: 1rem;
+    max-width: 43rem;
+    margin-inline: auto;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-right: 3rem;
+}
+
+.logo {
+    width: 6.127875rem;
+    height: 7.5625rem;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+.LogoName1 {
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.LogoName2 {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #00E5FF; /* Cor azul para "CODE" */
+}
+
+.start {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pcimage {
+    width: 38.53125rem;
+    height: 26.6875625rem;
+    position: relative;
+    z-index: 1;
+}
+
+.titulostart {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.2rem;
+    font-weight: 800;
+    text-align: center;
+    color: #FFFFFF;
+    z-index: 2;
+    margin-top: 8rem;
+}
+
+.neon1 {
+    width: 0.3734375rem;
+    height: 14.0790625rem;
+    border-radius: 0 20px 20px 0;
+    background: #00F7FF;
+    box-shadow: 6px 0px 30px 6px #00F6FF;
+    transform: scaleX(-1);
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    right: 5%;
+    transform: translateY(-50%) scaleX(-1); /* centraliza vertical sem alterar horizontal */
+}
+
+.aboutus {
+    margin-top: 5.4375rem;
+}
+
+.tituloaboutus {
+    text-align: center;
+    margin-bottom: 3.1875rem;
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-shadow: 0 4px 10px #00F6FF;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(0, 255, 255, 0.60);
+}
+
+.aboutusimg {
+    width: 38.53125rem;
+    height: 26.6875625rem;
+    position: relative;
+    z-index: 1;
+}
+
+.aboutus h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.aboutus p {
+    width: 23.3125rem;
+    margin: 1.25rem auto 0 auto;
+    text-align: center;
+}
+
+.ourservices {
+    margin-top: 5.4375rem;
+}
+
+.ourservices h1 {
+    text-align: center;
+    margin-bottom: 3.1875rem;
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-shadow: 0 4px 10px #00F6FF;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(0, 255, 255, 0.60);
+}
+
+.ourservicesimg {
+    width: 38.53125rem;
+    height: 26.6875625rem;
+    position: relative;
+    z-index: 1;
+}
+
+.neon2 {
+    width: 0.3734375rem;
+    height: 14.0790625rem;
+    border-radius: 0 20px 20px 0;
+    background: #00F7FF;
+    box-shadow: 6px 0px 30px 6px #00F6FF;
+    position: absolute;
+    z-index: 2;
+    top: 225%;
+    transform: translateY(-50%) scaleX(1); /* centraliza vertical sem alterar horizontal */
+}
+
+.ourservices h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-top: 1.25rem;
+}
+
+.ourservices p {
+    width: 23.3125rem;
+    margin: 1.25rem auto 0 auto;
+    text-align: center;
+}
+
+.linhaneon1 {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.websiteimg {
+    width: 38.53125rem;
+    height: 30.6875625rem;
+    position: relative;
+    z-index: 1;
+}
+
+
+.contact {
+    margin-top: 5.4375rem;
+}
+
+.contact h1 {
+    text-align: center;
+    margin-bottom: 3.1875rem;
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-shadow: 0 4px 10px #00F6FF;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(0, 255, 255, 0.60);
+}
+
+.contactimg {
+    width: 38.53125rem;
+    height: 30.6875625rem;
+    position: relative;
+    z-index: 1;
+}
+
+.contact h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-top: 1.25rem;
+    margin-bottom: 2.5rem;
+}
+
+.contact p {
+    width: 23.3125rem;
+    margin: 0 auto 2.5rem auto;
+    text-align: center;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.email, .linkedin, .instagram {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin: 0 0.5rem;
+}
+
+footer {
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    font-size: 0.875rem;
+    color: #ffffff;
+    position: relative;
+}
+
+.neon3 {
+  width: 14.0790625rem;     /* era a altura */
+  height: 0.3734375rem;     /* era a largura */
+  background: #00F7FF;
+  border-radius: 20px 20px 20px 20px;   /* ponta direita arredondada */
+  box-shadow: 6px 0 30px 0px #00F6FF; /* glow uniforme ao redor */
+  position: absolute;
+  transform: translateY(-50%);
+  margin-top: 1rem;
+  left: 35%;
+
+
+}
+
+
