@@ -89,7 +89,8 @@ body {
     box-shadow: 6px 0px 30px 6px #00F6FF;
     z-index: 2;
     top: 50%;
-    transform: translateY(-50%) scaleX(1); /* centraliza vertical sem alterar horizontal */
+    right: 0%;
+    transform: translateY(-50%) scaleX(-1); /* centraliza vertical sem alterar horizontal */
     position: absolute;
 }
 
@@ -155,7 +156,8 @@ body {
     box-shadow: 6px 0px 30px 6px #00F6FF;
     position: absolute;
     z-index: 2;
-    top: 240%;
+    top: 225%;
+    left: 0%;
     transform: translateY(-50%) scaleX(1); /* centraliza vertical sem alterar horizontal */
 }
 
