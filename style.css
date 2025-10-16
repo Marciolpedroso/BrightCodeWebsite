@@ -37,19 +37,19 @@ body {
 }
 
 .logo {
-    width: 6.127875rem;
-    height: 7.5625rem;
+    width: 5rem;
+    height: 7rem;
     align-items: center;
     margin-right: 1rem;
 }
 
 .LogoName1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 800;
 }
 
 .LogoName2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 500;
     color: #00E5FF; /* Cor azul para "CODE" */
 }
@@ -62,8 +62,8 @@ body {
 }
 
 .pcimage {
-    width: 38.53125rem;
-    height: 26.6875625rem;
+    width: 100%;
+    height: 100%;
     position: relative;
     z-index: 1;
 }
@@ -87,10 +87,10 @@ body {
     border-radius: 0 20px 20px 0;
     background: #00F7FF;
     box-shadow: 6px 0px 30px 6px #00F6FF;
-    position: absolute;
     z-index: 2;
     top: 50%;
     transform: translateY(-50%) scaleX(1); /* centraliza vertical sem alterar horizontal */
+    position: absolute;
 }
 
 .aboutus {
@@ -108,8 +108,8 @@ body {
 }
 
 .aboutusimg {
-    width: 38.53125rem;
-    height: 26.6875625rem;
+    width: 100%;
+    height: 100%;
     position: relative;
     z-index: 1;
 }
@@ -141,8 +141,8 @@ body {
 }
 
 .ourservicesimg {
-    width: 38.53125rem;
-    height: 26.6875625rem;
+    width: 100%;
+    height: 100%;
     position: relative;
     z-index: 1;
 }
@@ -178,8 +178,8 @@ body {
 }
 
 .websiteimg {
-    width: 38.53125rem;
-    height: 30.6875625rem;
+    width: 100%;
+    height: 100%;
     position: relative;
     z-index: 1;
 }
@@ -200,8 +200,8 @@ body {
 }
 
 .contactimg {
-    width: 38.53125rem;
-    height: 30.6875625rem;
+    width: 100%;
+    height: 100%;
     position: relative;
     z-index: 1;
 }
@@ -249,12 +249,8 @@ footer {
   background: #00F7FF;
   border-radius: 20px 20px 20px 20px;   /* ponta direita arredondada */
   box-shadow: 6px 0 30px 0px #00F6FF; /* glow uniforme ao redor */
-  position: absolute;
   transform: translateY(-50%);
-  margin-top: 1rem;
-  left: 35%;
-
-
+  display: inline-block;
 }
 
 
