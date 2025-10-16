@@ -19,8 +19,13 @@ body {
     color: var(--text-color);
     font-family: var(--fonte-principal);
     font-size: 1rem;
-    max-width: 43rem;
-    margin-inline: auto;
+}
+
+.container {
+  width: 100%;
+  max-width: 43rem;           /* ~688px, seu alvo mobile/tablet */
+  margin-inline: auto;
+  padding-inline: 1.6rem;     /* respiro lateral */
 }
 
 .menu {
@@ -29,7 +34,6 @@ body {
     justify-content: center;
     margin-top: 2rem;
     margin-bottom: 2rem;
-    margin-right: 3rem;
 }
 
 .logo {
@@ -83,12 +87,10 @@ body {
     border-radius: 0 20px 20px 0;
     background: #00F7FF;
     box-shadow: 6px 0px 30px 6px #00F6FF;
-    transform: scaleX(-1);
     position: absolute;
     z-index: 2;
     top: 50%;
-    right: 5%;
-    transform: translateY(-50%) scaleX(-1); /* centraliza vertical sem alterar horizontal */
+    transform: translateY(-50%) scaleX(1); /* centraliza vertical sem alterar horizontal */
 }
 
 .aboutus {
